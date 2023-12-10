@@ -1,6 +1,6 @@
-#IOT Module to find optimal route based on sensor data
+# IOT Module to find optimal route based on sensor data
 
-##Contiki OS:
+## Contiki OS:
 
 1. Open contiki and add rpl-border router from border-router.c
 2. Create file udp_traffic.c for generating route, number of vehicles, distance and visibility as sensor data
@@ -8,7 +8,7 @@
 4. Listen on serial socket server port 60001 from border router
 5. Run sudo ./tunslip6 -a 127.0.0.1 aaaa::1/646. Start simulation
 
-##Hyperledger Fabric:
+## Hyperledger Fabric:
 
 7. In Hyperledger folder run cd fabric-samples/test-network
 8. To close the current network run ./network.sh down9. To create a channel run ./network.sh up createChannel -c mychannel -ca
@@ -18,6 +18,6 @@
 13. To start storing data in blockchain run node app.js
 14. Blockchain will also push the data to MongoDB database
 
-##Mongo DB:
+## Mongo DB:
 
 15. Stored sensor data can be viewed in MongoDB
