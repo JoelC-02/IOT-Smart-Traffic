@@ -23,3 +23,8 @@
 ## Mongo DB:
 
 15. Stored sensor data can be viewed in MongoDB
+
+## Dashboard
+
+16. Open index.html in a live server
+17. To pull data from MongoDB to dashboard run node server.js
